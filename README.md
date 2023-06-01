@@ -21,6 +21,8 @@ touch assets/env/production
 ```
 Then, copy the contents from `assets/env/example` for each of these. You can also only worry about the develop env for the time being but you'll still need to create the empty files OR update `lib/core/utils/env.dart` to remove references to these environments.
 
+For the puroses of this test the assets are version controlled but in a real project make sure to gitignore them
+
 ### Install Packages
 ```
 fvm flutter pub get
